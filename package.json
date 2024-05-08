@@ -1,4 +1,14 @@
 {
+  "name": "kaili",
+  "version": "1.0.0",
+  "description": "Kaili",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/styles.css -o ./src/output.css --watch"
+  },
+  "author": "Jenny",
+  "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
   }
